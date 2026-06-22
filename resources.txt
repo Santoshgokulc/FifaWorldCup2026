@@ -1,0 +1,38 @@
+github.com/rezarahiminia/worldcup2026
+
+GET https://worldcup26.ir/get/games     # All matches
+GET https://worldcup26.ir/get/groups    # Group standings
+GET https://worldcup26.ir/get/teams     # All 48 teams
+GET https://worldcup26.ir/get/stadiums  # 16 stadiums
+
+
+
+ {
+    "match_id": "1",
+    "home_team": {
+      "name":"Brazil",
+      "goals":4,
+      "logo_url":"https://flagcdn.com/w80/br.png"
+    },
+    "away_team": {
+      "name":"Argentina",
+      "goals":3,
+      "logo_url":"https://flagcdn.com/w80/ar.png"
+    },
+    "home_score": "0",
+    "away_score": "0",
+    "home_scorers": "null",
+    "away_scorers": "null",
+    "group": "A",
+    "matchday": "1",
+    "date_time": "06/11/2026 13:00",
+    "persian_date": "1405-03-21 13:00",
+    "stadium": {
+      "name":"MetLife stadium",
+      "city":"New York",
+      "capacity":"80,000"
+    },
+    "finished": "FALSE",
+    "time_elapsed": "notstarted",
+    "type": "group"
+  }
